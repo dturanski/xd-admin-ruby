@@ -1,0 +1,6 @@
+ticktock:
+     definition: 'time | log'
+     deploy : 'module.*.count=3'
+  
+test:
+    definition: 'http | file'
